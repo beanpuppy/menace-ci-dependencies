@@ -1,0 +1,5 @@
+# DeepStrip build output
+DeepStrip/DeepStrip/bin/
+DeepStrip/DeepStrip/obj/
+DeepStrip/DeepStrip/nupkg/
+DeepStrip/
