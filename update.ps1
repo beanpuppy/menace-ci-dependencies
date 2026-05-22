@@ -32,7 +32,8 @@ $Assemblies = @(
   "UnityEngine.UI.dll",
   "UnityEngine.AssetBundleModule.dll",
   "UnityEngine.PhysicsModule.dll",
-  "UnityEngine.UIElementsModule.dll"
+  "UnityEngine.UIElementsModule.dll",
+  "UnityEngine.JSONSerializeModule.dll"
 )
 
 # ── Build DeepStrip ──────────────────────────────────────────────────────────
