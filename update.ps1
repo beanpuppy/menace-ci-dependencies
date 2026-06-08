@@ -19,10 +19,13 @@ if (-not (Test-Path $Il2CppDir)) {
 }
 
 # ── Assemblies Jiangyu.Loader references ─────────────────────────────────────
-# Keep this list synchronised with src/Jiangyu.Loader/Jiangyu.Loader.csproj
-# <Reference> entries under $(GameAssembliesDir).
+# Keep this list synchronised with the <Reference> entries under
+# $(GameAssembliesDir) across the projects CI builds against the game:
+# src/Jiangyu.Loader/Jiangyu.Loader.csproj and
+# src/Jiangyu.Sdk.Menace/Jiangyu.Sdk.Menace.csproj (the loader merges it in).
 $Assemblies = @(
   "Assembly-CSharp.dll",
+  "Assembly-CSharp-firstpass.dll",
   "Il2Cppmscorlib.dll",
   "Il2CppSirenix.Serialization.dll",
   "UnityEngine.CoreModule.dll",
@@ -33,6 +36,7 @@ $Assemblies = @(
   "UnityEngine.AssetBundleModule.dll",
   "UnityEngine.PhysicsModule.dll",
   "UnityEngine.UIElementsModule.dll",
+  "UnityEngine.TextRenderingModule.dll",
   "UnityEngine.JSONSerializeModule.dll"
 )
 
