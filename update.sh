@@ -25,6 +25,7 @@ ASSEMBLIES=(
   Il2Cppmscorlib.dll
   Il2CppSirenix.Serialization.dll
   UnityEngine.CoreModule.dll
+  UnityEngine.InputLegacyModule.dll
   UnityEngine.AnimationModule.dll
   UnityEngine.AudioModule.dll
   UnityEngine.UIModule.dll
